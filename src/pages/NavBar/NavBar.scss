@@ -1,0 +1,47 @@
+@use "../../styles/index" as *;
+
+.navbar {
+    background: $primary;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+
+    .logo a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    .links {
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+
+        .welcome {
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        a {
+            color: white;
+            font-weight: 500;
+        }
+
+        .logout-btn {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: $radius;
+            cursor: pointer;
+            transition: 0.2s ease;
+
+            &:hover {
+                background: white;
+                color: $primary;
+            }
+        }
+    }
+}

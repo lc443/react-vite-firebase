@@ -1,0 +1,10 @@
+@use "../../styles/index" as *;
+
+.register-container {
+    padding-top: 4rem;
+
+    .card {
+        border-radius: $radius;
+        box-shadow: $shadow;
+    }
+}

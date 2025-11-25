@@ -1,0 +1,13 @@
+@use "../../styles/index" as *;
+
+
+.login-container {
+    padding-top: 5rem;
+
+    .card {
+        border-radius: $radius;
+        box-shadow: $shadow;
+    }
+}
+
+

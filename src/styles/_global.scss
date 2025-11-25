@@ -1,0 +1,13 @@
+@use "./index" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    background: $gray-50;
+    color: $gray-900;
+}
